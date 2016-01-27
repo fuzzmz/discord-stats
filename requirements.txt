@@ -1,0 +1,5 @@
+aiohttp==0.19.0
+chardet==2.3.0
+discord.py==0.10.0a0
+websockets==2.7
+wheel==0.24.0
