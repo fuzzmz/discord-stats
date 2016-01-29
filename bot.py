@@ -30,9 +30,14 @@ async def messages(name: str, lim: int):
     counter += 1
 
 
-config = configparser.ConfigParser()
-config.read('discord-stats.conf')
+def main():
+    config = configparser.ConfigParser()
+    config.read('discord-stats.conf')
 
-email = config['DEFAULT']['User']
-password = config['DEFAULT']['Password']
-bot.run(email, password)
+    email = config['DEFAULT']['User']
+    password = config['DEFAULT']['Password']
+    bot.run(email, password)
+
+
+if __name__ == '__main__':
+    main()
