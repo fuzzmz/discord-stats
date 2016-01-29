@@ -1,5 +1,5 @@
 aiohttp==0.19.0
 chardet==2.3.0
-discord.py==0.10.0a0
+-e git+https://github.com/Rapptz/discord.py@e2c9cb7f8e474ec604dd7269aa96ea5b8021ff0f#egg=discord.py-async
 websockets==2.7
 wheel==0.24.0
